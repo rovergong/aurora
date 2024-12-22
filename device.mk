@@ -23,11 +23,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_PACKAGES += \
-    bootctrl.xiaomi_sm8550.recovery \
+    bootctrl.xiaomi_sm8750.recovery \
     android.hardware.boot@1.2-impl-qti.recovery
 
 # SHIPPING API
-PRODUCT_SHIPPING_API_LEVEL := 31
+PRODUCT_SHIPPING_API_LEVEL := 32
 
 # VNDK API
 PRODUCT_TARGET_VNDK_VERSION := 35

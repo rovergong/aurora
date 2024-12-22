@@ -4,6 +4,11 @@ ro.boot.dynamic_partitions=true
 
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
+vendor.gatekeeper.is_security_level_spu=0
 
-# Spr DRM
-vendor.display.enable_spr=1
+# Battery Property
+ro.charger.enable_suspend=1
+
+# Reset allocatable space
+#ro.dynamic.full_size=8321499136
+ro.llndk.api_level=202404

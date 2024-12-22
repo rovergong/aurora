@@ -1,0 +1,368 @@
+audio_prm_dlkm.ko: spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mpam_msc.ko:
+si_core_module.ko:
+qti_dmof_scmi.ko:
+hdmi_dlkm.ko: msm_ext_display.ko
+cnss_plat_ipc_qmi_svc.ko: qmi_helpers.ko
+mca_platform_fg_ic_ops.ko:
+qce50_dlkm.ko: sps_drv.ko
+repeater.ko:
+mca_basic_wireless.ko: mca_smart_charge.ko mca_charge_interface.ko mca_hwid.ko mca_workqueue.ko mca_wireless_revchg.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+llcc_perfmon.ko:
+smp2p_sleepstate.ko:
+mhi_dev_uci.ko: mhi.ko pci-msm-drv.ko pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+cpu_mpam.ko: mpam.ko
+eud.ko:
+qcom_spss.ko: qcom_glink_spss.ko qcom_sysmon.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+rmnet_sch.ko:
+qcedev-mod_dlkm.ko: qce50_dlkm.ko sps_drv.ko
+qti-ocp-notifier.ko:
+nxp-nci.ko: smcinvoke_dlkm.ko mem_object.ko si_core_module.ko qseecom_proxy.ko
+mem_object.ko: si_core_module.ko
+clk-scmi.ko:
+mbhc_dlkm.ko: wcd_core_dlkm.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko lpass_cdc_tx_macro_dlkm.ko lpass_cdc_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_charge_interface.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+coresight.ko:
+mca_business_charger_comp.ko: mca_lpd_detect.ko mca_connector_antiburn.ko mca_protocol_pd_class.ko charger_partition.ko mca_hwid.ko mca_workqueue.ko mca_wireless_revchg.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+pcie-pdc.ko:
+mca_qcom_subpmic_proxy.ko: mca_protocol_qc_class.ko mca_platform_bc12_class.ko mca_adsp_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_protocol_pd_class.ko charger_partition.ko mca_hwid.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_platform_buckchg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+swr_dmic_dlkm.ko: wcd939x_dlkm.ko mbhc_dlkm.ko wcd_core_dlkm.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko lpass_cdc_tx_macro_dlkm.ko lpass_cdc_dlkm.ko wcd9xxx_dlkm.ko audio_prm_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko wcd939x_slave_dlkm.ko swr_dlkm.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+q2spi-geni.ko: msm_gpi.ko
+q6_notifier_dlkm.ko: q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+nls_ucs2_utils.ko:
+pm8941-pwrkey.ko:
+stm_heartbeat.ko: stm_core.ko
+wsa883x_dlkm.ko: wcd_core_dlkm.ko swr_dlkm.ko
+lpass_cdc_tx_macro_dlkm.ko: lpass_cdc_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_sysfs.ko:
+wcd939x_dlkm.ko: mbhc_dlkm.ko wcd_core_dlkm.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko lpass_cdc_tx_macro_dlkm.ko lpass_cdc_dlkm.ko wcd9xxx_dlkm.ko audio_prm_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko wcd939x_slave_dlkm.ko swr_dlkm.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qrtr-mhi.ko: mhi.ko pci-msm-drv.ko pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+pmic-glink-debug.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+evacc-tuna.ko:
+coresight-dummy.ko: coresight-qmi.ko coresight-csr.ko coresight.ko qmi_helpers.ko
+usb_f_gsi.ko: dwc3-msm.ko repeater.ko redriver.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qca_cld3_kiwi_v2.ko: cnss2.ko wlan_firmware_service.ko cnss_plat_ipc_qmi_svc.ko cnss_prealloc.ko cnss_utils.ko smem-mailbox.ko cnss_nl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko cfg80211.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko mhi.ko pci-msm-drv.ko pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+bam_dma.ko:
+lpass_cdc_wsa2_macro_dlkm.ko: swr_ctrl_dlkm.ko wcd_core_dlkm.ko lpass_cdc_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+leds-qti-flash.ko: qti_battery_charger.ko panel_event_notifier.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+hung_task_enh.ko:
+max31760_fan.ko:
+thermal_config.ko:
+cambistmclkcc-tuna.ko:
+gh_ctrl.ko:
+nuvolta_1652.ko: mca_adsp_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_strategy_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_bmd.ko: mca_strategy_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+qcom_iommu_debug.ko:
+i3c-master-msm-geni.ko: msm_gpi.ko
+mi_ubt_test.ko:
+qcom_ramdump.ko:
+mhi_dev_satellite.ko: mhi.ko pci-msm-drv.ko pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_quick_wireless.ko: mca_basic_wireless.ko mca_smart_charge.ko mca_charge_interface.ko mca_platform_fg_ic_ops.ko mca_hwid.ko mca_workqueue.ko mca_wireless_revchg.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+msm-mmrm.ko:
+cs35l43_dlkm.ko: cs_dsp.ko
+cifs.ko: dns_resolver.ko nls_ucs2_utils.ko cifs_arc4.ko cifs_md4.ko netfs.ko
+audio_pkt_dlkm.ko: audpkt_ion_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+gh_tlmm_vm_mem_access.ko: gh_mem_notifier.ko
+msm_sysstats.ko:
+stm_p_ost.ko: stm_core.ko
+tfa98xx_dlkm.ko:
+msm_ext_display.ko:
+msm_video.ko: msm-mmrm.ko
+qcom_q6v5_pas.ko: qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko qcom_ramdump.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+cnss_prealloc.ko:
+lpass_cdc_va_macro_dlkm.ko: swr_ctrl_dlkm.ko wcd_core_dlkm.ko lpass_cdc_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+hwmon.ko:
+mca_buckchg_jeita.ko: mca_smart_charge.ko mca_hwid.ko mca_common.ko mca_strategy_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+mca_common.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+leds-qcom-flash.ko:
+mpam.ko:
+spi-msm-geni.ko:
+swr_ctrl_dlkm.ko: spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+swinfo.ko:
+mca_charge_mievent.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+rmnet_mem.ko:
+mca_path_control.ko: mca_wireless_revchg.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+btfmcodec.ko: rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+coresight-csr.ko: coresight.ko
+mca_protocol_qc_class.ko: mca_protocol_class.ko
+mi_exception_log.ko:
+lpass_bt_swr_dlkm.ko: swr_ctrl_dlkm.ko wcd_core_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qti_qmi_cdev.ko: qmi_helpers.ko
+smem-mailbox.ko:
+altmode-glink.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+coresight-tmc.ko: usb_f_qdss.ko dwc3-msm.ko repeater.ko redriver.ko coresight-csr.ko coresight.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+proc_exit.ko:
+mca_business_battery_comp.ko: mca_common.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+mca_vbat_ovp_monitor.ko: mca_hwid.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+msm_geni_serial.ko:
+phy-msm-ssusb-qmp.ko:
+mem-offline.ko:
+msm_kgsl.ko: synx-driver.ko ipclite.ko msm_hw_fence.ko qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko msm_sysstats.ko msm_performance.ko qcom_ramdump.ko qcom_va_minidump.ko coresight.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mpam_msc_slc.ko: mpam_msc.ko
+debugcc-sun.ko:
+tmecom-intf.ko:
+reboot-mode.ko:
+repeater-qti-pmic-eusb2.ko: repeater.ko
+camcc-tuna.ko:
+gh_rm_booster.ko:
+qcom_lpm.ko:
+mca_qcom_sysfs.ko: mca_charger_thermal.ko mca_qcom_smem.ko mca_basic_wireless.ko mca_smart_charge.ko mca_charge_interface.ko mca_platform_fg_ic_ops.ko mca_protocol_pd_class.ko charger_partition.ko mca_hwid.ko mca_workqueue.ko mca_wireless_revchg.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+gpr_dlkm.ko: snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+msm_performance.ko:
+qcom_glink_smem.ko: qcom_glink.ko
+cdsprm.ko:
+mca_qcom_smem.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+qcom_glink.ko:
+mhi.ko: pci-msm-drv.ko pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mtdoops.ko: pm8941-pwrkey.ko mtd.ko
+qcom_smd.ko:
+mi_log.ko:
+qmi_helpers.ko:
+gpucc-tuna.ko:
+qti-glink-adc.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+frpc-adsprpc.ko: pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_lpd_detect.ko: mca_platform_buckchg_class.ko mca_log.ko mca_event.ko mca_sysfs.ko
+qcom-pon.ko: reboot-mode.ko
+lt9611uxc.ko:
+qti_devfreq_cdev.ko:
+ufs_ffu.ko:
+phy-msm-m31-eusb2.ko: repeater.ko
+redriver.ko:
+gh_irq_lend.ko:
+q6_pdr_dlkm.ko: pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+coresight-replicator.ko: coresight.ko
+cpufreq_stats_scmi_v3.ko:
+camera.ko: leds-qti-flash.ko qti_battery_charger.ko panel_event_notifier.ko smmu_proxy_dlkm.ko synx-driver.ko ipclite.ko msm_hw_fence.ko qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko msm-mmrm.ko qcom_ramdump.ko qcom_va_minidump.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko smcinvoke_dlkm.ko mem_object.ko si_core_module.ko qseecom_proxy.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+gpio-mi-t1.ko:
+mca_protocol_pd_class.ko: charger_partition.ko mca_protocol_class.ko mca_strategy_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+snd-soc-hdmi-codec.ko:
+stm_nfc_i2c.ko: smcinvoke_dlkm.ko mem_object.ko si_core_module.ko qseecom_proxy.ko
+spcom.ko:
+usb_f_ccid.ko:
+mca_platform_wireless_class.ko: mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+mca_strategy_buckchg.ko: mca_qcom_smem.ko mca_smart_charge.ko mca_charge_interface.ko mca_protocol_pd_class.ko charger_partition.ko mca_hwid.ko mca_workqueue.ko mca_wireless_revchg.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+msm-eva.ko: frpc-adsprpc.ko synx-driver.ko ipclite.ko msm_hw_fence.ko qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko msm-mmrm.ko qcom_ramdump.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+rproc_qcom_common.ko: qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+stub_dlkm.ko:
+miwill.ko:
+rmnet_ctl.ko: ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_workqueue.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+governor_gpubw_mon.ko:
+mca_soc_limit.ko: mca_strategy_fg_class.ko mca_log.ko mca_event.ko mca_sysfs.ko
+ipclite.ko:
+mca_smart_charge.ko: mca_common.ko mca_strategy_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+ftun.ko:
+netfs.ko:
+rdbg.ko:
+mtd_blkdevs.ko: mtd.ko
+miicmpfilter.ko:
+stm_st54se_gpio.ko:
+qcom-rng.ko:
+msm_hw_fence.ko: qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko qcom_ramdump.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+governor_msm_adreno_tz.ko:
+heap_mem_ext_v01.ko: qmi_helpers.ko
+powersave.ko:
+nb7vpq904m.ko: redriver.ko
+qcom_dynamic_ramoops.ko:
+qcom_sysmon.ko: qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+stm_core.ko:
+bwmon.ko:
+leds-qcom-lpg.ko:
+xiaomi_touch.ko: panel_event_notifier.ko
+dmesg_dumper.ko: gh_panic_notifier.ko
+gsim.ko: qcom_va_minidump.ko
+wsa884x_dlkm.ko: wcd_core_dlkm.ko swr_dlkm.ko
+smmu_proxy_dlkm.ko: smcinvoke_dlkm.ko mem_object.ko si_core_module.ko qseecom_proxy.ko
+gh_mem_notifier.ko:
+hl7603.ko: mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+bq27z561.ko: mca_platform_fg_ic_ops.ko mca_hwid.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+boot_stats.ko:
+coresight-tpdm.ko: coresight-csr.ko coresight.ko
+qmp_dlkm.ko: swr_dlkm.ko
+rmnet_perf.ko: rmnet_core.ko rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+gpu_dump_skip_cdev.ko:
+coresight-tpda.ko: coresight.ko
+mca_strategy_class.ko:
+drm_dp_aux_bus.ko:
+mca_connector_antiburn.ko: mca_protocol_pd_class.ko charger_partition.ko mca_hwid.ko mca_workqueue.ko mca_protocol_class.ko mca_strategy_class.ko mca_charge_mievent.ko mca_platform_buckchg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+i2c-msm-geni.ko: msm_gpi.ko
+sys_pm_vx.ko: qcom_stats.ko
+qcom_adsp_pd_protocol.ko: mca_adsp_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_protocol_pd_class.ko charger_partition.ko mca_protocol_class.ko mca_strategy_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+synaptics_tcm2.ko: gh_irq_lend.ko xiaomi_touch.ko panel_event_notifier.ko gh_mem_notifier.ko
+qseecom_proxy.ko:
+ofpart.ko: mtd.ko
+qrng_dlkm.ko:
+dump_display.ko:
+q6_dlkm.ko:
+mi_fp.ko: panel_event_notifier.ko
+qsee_ipc_irq_bridge.ko: rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+usb_f_cdev.ko:
+bootmonitor.ko:
+qti_amoled_ecm.ko: hwmon.ko panel_event_notifier.ko
+mca_platform_cp_class.ko: mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+platform_mpam.ko: mpam.ko
+cs_dsp.ko:
+panel_event_notifier.ko:
+coresight-trace-noc.ko: coresight.ko
+wcd938x_slave_dlkm.ko: swr_dlkm.ko
+qcom-amoled-regulator.ko:
+charger-ulog-glink.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_log.ko mca_event.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qcom-spmi-temp-alarm.ko:
+miwill_mode_redudancy.ko: miwill.ko
+btpower.ko: cnss_utils.ko smem-mailbox.ko
+qcom-hv-haptics.ko: qti_battery_charger.ko panel_event_notifier.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+stm_ftrace.ko: stm_core.ko
+slc_mpam.ko: platform_mpam.ko mpam_msc.ko mpam.ko
+sync_fence.ko:
+tz_log_dlkm.ko: tmecom-intf.ko
+spmi-pmic-arb-debug.ko:
+rmnet_wlan.ko: rmnet_core.ko rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+minet.ko:
+mem-hooks.ko:
+tango32.ko:
+lpass_cdc_dlkm.ko: spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+rmnet_perf_tether.ko: rmnet_core.ko rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qti_pmic_glink.ko: pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+ddr_cdev.ko:
+mtd.ko:
+rsmc_driver.ko:
+coresight-tmc-sec.ko: coresight-qmi.ko coresight-csr.ko coresight.ko qmi_helpers.ko
+qcom-vadc-common.ko:
+coresight-uetm.ko: coresight-csr.ko coresight.ko
+audpkt_ion_dlkm.ko:
+hangdetect.ko:
+qcom_va_minidump.ko:
+snd_event_dlkm.ko:
+lpass_cdc_rx_macro_dlkm.ko: swr_ctrl_dlkm.ko wcd_core_dlkm.ko lpass_cdc_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qcom_edac.ko:
+qcom_cpuss_sleep_stats_v4.ko:
+qrtr-tun.ko:
+chipreg.ko:
+smcinvoke_dlkm.ko: mem_object.ko si_core_module.ko qseecom_proxy.ko
+smp2p.ko:
+videocc-tuna.ko:
+mca_parse_dts.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+mca_strategy_fg_class.ko:
+hardwareinfo.ko:
+mca_charger_thermal.ko: mca_qcom_smem.ko mca_smart_charge.ko mca_platform_fg_ic_ops.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+mca_log.ko: mca_event.ko mca_sysfs.ko
+qti_battery_debug.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+cfg80211.ko:
+snd-usb-audio-qmi.ko: xhci-sideband.ko qmi_helpers.ko
+cifs_md4.ko:
+slim-qcom-ngd-ctrl.ko: slimbus.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qti_cpufreq_cdev.ko:
+coresight-qmi.ko: coresight.ko qmi_helpers.ko
+mca_pd_auth.ko: mca_protocol_pd_class.ko charger_partition.ko mca_protocol_class.ko mca_strategy_class.ko mca_charge_mievent.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+bcl_soc.ko:
+mi_trace.ko:
+spf_core_dlkm.ko: gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+pinctrl-spmi-gpio.ko:
+xhci-sideband.ko:
+coresight-stm.ko: coresight-csr.ko coresight.ko stm_core.ko
+mca_hwid.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+mitee_dlkm.ko:
+qnoc-tuna.ko:
+cameramsger.ko:
+dwc3-msm.ko: repeater.ko redriver.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qti_userspace_cdev.ko:
+qcom_pil_info.ko:
+nvmem_qfprom.ko:
+mca_strategy_quickchg.ko: mca_smart_charge.ko mca_charge_interface.ko mca_platform_fg_ic_ops.ko mca_protocol_qc_class.ko mca_protocol_pd_class.ko charger_partition.ko mca_hwid.ko mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+machine_dlkm.ko: wsa884x_dlkm.ko wsa883x_dlkm.ko lpass_cdc_rx_macro_dlkm.ko swr_ctrl_dlkm.ko wcd939x_dlkm.ko mbhc_dlkm.ko wcd_core_dlkm.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko lpass_cdc_tx_macro_dlkm.ko lpass_cdc_dlkm.ko wcd9xxx_dlkm.ko audio_prm_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko wcd939x_slave_dlkm.ko swr_dlkm.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+hdcp_qseecom_dlkm.ko: smcinvoke_dlkm.ko mem_object.ko si_core_module.ko qseecom_proxy.ko
+sc8581.ko: mca_hwid.ko mca_platform_cp_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+msm_drm.ko: sync_fence.ko altmode-glink.ko hdcp_qseecom_dlkm.ko drm_display_helper.ko gh_irq_lend.ko panel_event_notifier.ko smmu_proxy_dlkm.ko pm8941-pwrkey.ko synx-driver.ko ipclite.ko msm_hw_fence.ko qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko msm-mmrm.ko gh_mem_notifier.ko dwc3-msm.ko repeater.ko redriver.ko qcom_ramdump.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko smcinvoke_dlkm.ko mem_object.ko si_core_module.ko qseecom_proxy.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko msm_ext_display.ko
+swr_dlkm.ko:
+binder_prio.ko:
+hvc_gunyah.ko:
+mca_platform_base.ko: mca_log.ko mca_event.ko mca_sysfs.ko
+slimbus.ko:
+mca_qcom_panel.ko: panel_event_notifier.ko mca_log.ko mca_event.ko mca_sysfs.ko
+qcom-spmi-adc5-gen3.ko: qcom-vadc-common.ko
+mca_platform_buckchg_class.ko:
+usb_f_qdss.ko: dwc3-msm.ko repeater.ko redriver.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mi_cam.ko:
+mi_thermal_interface.ko: panel_event_notifier.ko mca_smart_charge.ko mca_common.ko mca_strategy_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+coresight-tgu.ko: coresight.ko
+ipam.ko: usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+xiaomi_wifi_gpio.ko:
+glink_probe.ko: qcom_glink_spss.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+msm_gpi.ko:
+cnss_nl.ko:
+phy-generic.ko:
+qrtr-smd.ko: qcom_glink.ko
+btfm_slim_codec.ko: btfmcodec.ko btpower.ko slimbus.ko cnss_utils.ko smem-mailbox.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+swr_haptics_dlkm.ko: qti_battery_charger.ko panel_event_notifier.ko swr_dlkm.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+tas25xx_dlkm.ko:
+adsp_loader_dlkm.ko: spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+coresight-funnel.ko: coresight.ko
+rmnet_aps.ko: rmnet_core.ko rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mca_platform_bc12_class.ko: mca_protocol_pd_class.ko charger_partition.ko mca_protocol_class.ko mca_strategy_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+sysmon_subsystem_stats.ko:
+rmnet_offload.ko: rmnet_core.ko rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+mi_mempool.ko:
+lpass_cdc_wsa_macro_dlkm.ko: swr_ctrl_dlkm.ko wcd_core_dlkm.ko lpass_cdc_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+sps_drv.ko:
+coresight-remote-etm.ko: coresight-qmi.ko coresight-csr.ko coresight.ko qmi_helpers.ko
+msm_memshare.ko: heap_mem_ext_v01.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+pinctrl_lpi_dlkm.ko: spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+msm_show_epoch.ko:
+gh_panic_notifier.ko:
+sla.ko:
+qti-fixed-regulator.ko:
+mi_stack.ko:
+mtdblock.ko: mtd_blkdevs.ko mtd.ko
+qcom-i2c-pmic.ko:
+ipclite_test.ko: ipclite.ko
+mca_business_misc_comp.ko: mca_common.ko mca_log.ko mca_event.ko mca_sysfs.ko
+msm_show_resume_irq.ko:
+qcrypto-msm_dlkm.ko: qce50_dlkm.ko sps_drv.ko
+qti_qmi_sensor_v2.ko: qmi_helpers.ko
+mca_adsp_glink.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_log.ko mca_event.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+phy-qcom-emu.ko:
+rmnet_core.ko: rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+bt_fm_swr.ko: btfmcodec.ko btpower.ko cnss_utils.ko smem-mailbox.ko swr_dlkm.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+wcd938x_dlkm.ko: mbhc_dlkm.ko wcd_core_dlkm.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko lpass_cdc_tx_macro_dlkm.ko lpass_cdc_dlkm.ko wcd9xxx_dlkm.ko audio_prm_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko swr_dlkm.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+coresight-cti.ko: coresight.ko
+wcd9xxx_dlkm.ko: audio_prm_dlkm.ko spf_core_dlkm.ko gpr_dlkm.ko snd_event_dlkm.ko q6_notifier_dlkm.ko q6_pdr_dlkm.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+f_fs_ipc_log.ko:
+wlan_firmware_service.ko: qmi_helpers.ko
+cpucp_log.ko:
+qti_battery_charger.ko: panel_event_notifier.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+pinctrl-spmi-mpp.ko:
+rmnet_shs.ko: rmnet_core.ko rmnet_ctl.ko ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+qcom_stats.ko:
+mi_wmark.ko:
+wcd_core_dlkm.ko:
+cnss2.ko: wlan_firmware_service.ko cnss_plat_ipc_qmi_svc.ko cnss_prealloc.ko cnss_utils.ko smem-mailbox.ko qcom_ramdump.ko qmi_helpers.ko mhi.ko pci-msm-drv.ko pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+cameralog.ko:
+synx-driver.ko: ipclite.ko msm_hw_fence.ko qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko qcom_ramdump.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+glink_pkt.ko: qcom_glink.ko
+qcom_glink_spss.ko: qcom_glink.ko
+wcd939x_slave_dlkm.ko: swr_dlkm.ko
+memlat.ko:
+radio-i2c-rtc6226-qca.ko:
+mca_wireless_revchg.ko: mca_common.ko mca_protocol_class.ko mca_strategy_class.ko mca_platform_cp_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_platform_wireless_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+mca_protocol_class.ko:
+dns_resolver.ko:
+block2mtd.ko: mtd.ko
+cnss_utils.ko: smem-mailbox.ko
+qcom_q6v5.ko: qcom_sysmon.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+wcd_usbss_i2c.ko: ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+spss_utils.ko: qcom_spss.ko qcom_glink_spss.ko qcom_sysmon.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+drm_display_helper.ko:
+mca_event.ko: mca_sysfs.ko
+pci-msm-drv.ko: pcie-pdc.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+ir-spi.ko:
+charger_partition.ko: mca_strategy_class.ko mca_log.ko mca_event.ko mca_sysfs.ko
+llcc_heuristics.ko:
+mca_strategy_fg_comp.ko: mca_qcom_smem.ko mca_smart_charge.ko mca_platform_fg_ic_ops.ko charger_partition.ko mca_hwid.ko mca_workqueue.ko mca_common.ko mca_strategy_class.ko mca_charge_mievent.ko mca_strategy_fg_class.ko mca_platform_buckchg_class.ko mca_parse_dts.ko mca_log.ko mca_event.ko mca_sysfs.ko
+msm_sharedmem.ko:
+stm_console.ko: stm_core.ko
+mac80211.ko: cfg80211.ko
+ipanetm.ko: ipam.ko usb_f_gsi.ko dwc3-msm.ko repeater.ko redriver.ko rmnet_mem.ko qcom_ramdump.ko gsim.ko qcom_va_minidump.ko wcd_usbss_i2c.ko ucsi_qti_glink.ko qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko mca_sysfs.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+pdr_interface.ko: qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+adsp_sleepmon.ko: qcom_q6v5_pas.ko qcom_pil_info.ko qcom_q6v5.ko qcom_sysmon.ko qcom_ramdump.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+ucsi_qti_glink.ko: qti_pmic_glink.ko pdr_interface.ko qmi_helpers.ko rproc_qcom_common.ko qcom_smd.ko qcom_glink_smem.ko qcom_glink.ko
+cifs_arc4.ko:

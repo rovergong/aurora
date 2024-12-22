@@ -9,4 +9,4 @@ service touch_report /vendor/bin/touch_report
     seclabel u:r:recovery:s0
 
 on charger
-    write /sys/class/touch/touch_dev/touch_doze_analysis 1
+    write /sys/class/touch/touch_dev/touch_doze_analysis 6

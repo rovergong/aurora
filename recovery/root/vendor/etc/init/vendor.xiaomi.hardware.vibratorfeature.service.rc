@@ -1,4 +1,4 @@
-on late-fs
+on fs
     # qcom-haptics
     chmod 0666 /sys/class/qcom-haptics/lra_calibration
     chmod 0666 /sys/class/qcom-haptics/lra_impedance
@@ -101,12 +101,11 @@ on property:sys.boot_completed=1
     setprop vendor.aihaptic.warn.continuous_intensity 65
     setprop vendor.aihaptic.warn.continuous_sharpness 56
 
-on boot
-    start vibratorfeature-hal-service
-
 service vibratorfeature-hal-service /vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
     class hal
-    user system
-    group system input
+    user root
+    group root input audio
     onrestart restart vibratorfeature
+    setenv LD_LIBRARY_PATH /vendor/lib64:/vendor/lib64/hw:/system/lib64:/sbin
+    disabled
     seclabel u:r:recovery:s0

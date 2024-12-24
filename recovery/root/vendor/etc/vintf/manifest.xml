@@ -31,6 +31,6 @@
         <fqname>IMiwillAIDLService/default</fqname>
     </hal>
     <sepolicy>
-        <version>202404</version>
+        <version>35.0</version>
     </sepolicy>
 </manifest>

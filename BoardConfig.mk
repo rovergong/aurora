@@ -92,7 +92,7 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 # File systems
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-BOARD_USES_SYSTEM_DLKMIMAGE := true
+#BOARD_USES_SYSTEM_DLKMIMAGE := true
 BOARD_USES_VENDOR_DLKMIMAGE := true
 
 # Workaround for error copying vendor files to recovery ramdisk

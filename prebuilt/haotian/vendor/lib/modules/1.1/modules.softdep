@@ -1,5 +1,4 @@
 # Soft dependencies extracted from modules themselves.
-softdep qti_dmof_scmi pre: qcom_scmi_client
 softdep cpu_mpam pre: mpam
 softdep q6_notifier_dlkm pre: qcom_q6v5_pas
 softdep cifs ecb

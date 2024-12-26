@@ -53,6 +53,7 @@ alias symbol:mhi_stop_transfer mhi
 alias symbol:platform_class_cp_get_alarm_status mca_platform_cp_class
 alias symbol:ieee80211_get_vht_max_nss cfg80211
 alias symbol:nvt_get_lcm_id_notify msm_drm
+alias symbol:cs40l26_remove cs40l26_core
 alias symbol:drm_dp_link_rate_to_bw_code drm_display_helper
 alias symbol:msm_cdc_pinctrl_set_wakeup_capable wcd_core_dlkm
 alias symbol:ipclite_hw_mutex_release ipclite
@@ -124,6 +125,7 @@ alias symbol:gsi_stop_db_channel gsim
 alias symbol:mhi_device_ioctl mhi
 alias symbol:fastrpc_driver_invoke frpc_adsprpc
 alias symbol:cam_mem_get_io_buf camera
+alias symbol:cs40l26_svc_le_estimate cs40l26_core
 alias symbol:snd_event_master_register snd_event_dlkm
 alias symbol:__tracepoint_rmnet_high rmnet_core
 alias symbol:coresight_trace_id_perf_start coresight
@@ -152,6 +154,7 @@ alias symbol:update_ch_per_substream qmp_dlkm
 alias symbol:rmnet_module_hook_perf_egress rmnet_core
 alias symbol:cfg80211_unregister_wdev cfg80211
 alias symbol:ieee80211_report_low_ack mac80211
+alias symbol:cs40l26_set_pll_loop cs40l26_core
 alias symbol:wm_adsp_power_down cs35l43_dlkm
 alias symbol:cnss_qmi_send cnss2
 alias symbol:ipa_eth_client_disconn_evt ipam
@@ -295,6 +298,7 @@ alias symbol:platform_class_wireless_get_tx_uuid mca_platform_wireless_class
 alias symbol:slim_driver_unregister slimbus
 alias symbol:wcd939x_mbhc_deinit wcd939x_dlkm
 alias symbol:platform_fg_ops_get_count_level1 mca_platform_fg_ic_ops
+alias symbol:cs40l26_suspend cs40l26_core
 alias symbol:rmnet_module_hook_aps_data_active rmnet_core
 alias symbol:of_dp_aux_depopulate_bus drm_dp_aux_bus
 alias symbol:__devm_regmap_init_swr swr_dlkm
@@ -334,6 +338,7 @@ alias symbol:ipa3_eth_connect ipam
 alias symbol:mtd_wunit_to_pairing_info mtd
 alias symbol:coresight_trace_id_get_cpu_id coresight
 alias symbol:ieee80211_bss_get_elem cfg80211
+alias symbol:cl_dsp_memchunk_read cl_dsp_core
 alias symbol:dss_reg_dump msm_drm
 alias symbol:platform_fg_ops_get_rsoc mca_platform_fg_ic_ops
 alias symbol:slim_alloc_txn_tid slimbus
@@ -384,6 +389,7 @@ alias symbol:drm_dsc_set_const_params drm_display_helper
 alias symbol:ipa_pm_activate ipam
 alias symbol:ieee80211_get_hdrlen_from_skb cfg80211
 alias symbol:ipa3_reset_gsi_event_ring ipam
+alias symbol:cl_dsp_get_reg cl_dsp_core
 alias symbol:msm_pcie_set_target_link_speed pci_msm_drv
 alias symbol:swr_set_device_group swr_dlkm
 alias symbol:__tracepoint_rmnet_freq_boost rmnet_core
@@ -397,6 +403,7 @@ alias symbol:drm_dp_get_pcon_max_frl_bw drm_display_helper
 alias symbol:drm_dp_128b132b_read_aux_rd_interval drm_display_helper
 alias symbol:msm_register_fence_error_event msm_drm
 alias symbol:platform_class_buckchg_ops_request_dpdm mca_platform_buckchg_class
+alias symbol:cl_dsp_wavetable_create cl_dsp_core
 alias symbol:wlfw_wlan_hw_init_cfg_resp_msg_v01_ei wlan_firmware_service
 alias symbol:ipa_register_notifier ipam
 alias symbol:ipa_uc_offload_cleanup ipam
@@ -430,6 +437,7 @@ alias symbol:vis_dsi_send_mipi_trigger_command msm_drm
 alias symbol:cnss_ipa_wlan_shared_smmu_supported cnss2
 alias symbol:__tracepoint_rmnet_shs_wq_low rmnet_core
 alias symbol:register_hw_component_info msm_drm
+alias symbol:cl_dsp_get_flags cl_dsp_core
 alias symbol:cnss_qmi_send_get cnss2
 alias symbol:ieee80211_cqm_rssi_notify mac80211
 alias symbol:gpr_set_modem_state gpr_dlkm
@@ -443,6 +451,7 @@ alias symbol:ipa_mhi_connect_pipe ipam
 alias symbol:ipa3_is_client_handle_valid ipam
 alias symbol:rndis_ipa_pipe_disconnect_notify ipam
 alias symbol:platform_fg_ops_set_fastcharge mca_platform_fg_ic_ops
+alias symbol:cs40l26_pm_runtime_setup cs40l26_core
 alias symbol:drm_dp_downstream_debug drm_display_helper
 alias symbol:drm_dp_lttpr_link_train_clock_recovery_delay drm_display_helper
 alias symbol:rmnet_module_hook_unregister_no_sync rmnet_core
@@ -522,6 +531,7 @@ alias symbol:drm_dp_dpcd_write drm_display_helper
 alias symbol:strategy_class_fg_get_dc mca_strategy_fg_class
 alias symbol:camlog_send_message cameralog
 alias symbol:tas25xx_register_i2c_error_callback tas25xx_dlkm
+alias symbol:cl_dsp_memchunk_create cl_dsp_core
 alias symbol:ipa_usb_xdci_resume ipam
 alias symbol:hwmon_device_register_with_info hwmon
 alias symbol:qmi_rmnet_ps_off_notify rmnet_core
@@ -542,6 +552,7 @@ alias symbol:sps_device_reset sps_drv
 alias symbol:get_wiphy_regdom cfg80211
 alias symbol:cam_req_mgr_init camera
 alias symbol:wlfw_athdiag_write_resp_msg_v01_ei wlan_firmware_service
+alias symbol:cs40l26_sys_resume_noirq cs40l26_core
 alias symbol:platform_class_buckchg_ops_set_otg_curr mca_platform_buckchg_class
 alias symbol:cam_res_mgr_util_get_idx_from_shared_gpio camera
 alias symbol:drm_dp_add_payload_part2 drm_display_helper
@@ -581,6 +592,7 @@ alias symbol:qts_ts_suspend synaptics_tcm2
 alias symbol:msm_pcie_l1ss_timeout_enable pci_msm_drv
 alias symbol:platform_class_wireless_set_fod_params mca_platform_wireless_class
 alias symbol:lpass_cdc_get_device_ptr lpass_cdc_dlkm
+alias symbol:cl_dsp_fw_id_get cl_dsp_core
 alias symbol:drm_dp_phy_name drm_display_helper
 alias symbol:ipa_wdi_dereg_intf_per_inst ipam
 alias symbol:cam_cpas_start camera
@@ -604,8 +616,10 @@ alias symbol:cnss_get_fw_cap cnss2
 alias symbol:ieee80211_reserve_tid mac80211
 alias symbol:cam_common_mem_free camera
 alias symbol:mtd_device_unregister mtd
+alias symbol:cl_dsp_logger_update cl_dsp_core
 alias symbol:ieee80211_connection_loss mac80211
 alias symbol:platform_class_wireless_get_vrect mca_platform_wireless_class
+alias symbol:cs40l26_readable_reg cs40l26_core
 alias symbol:swr_unregister_master swr_dlkm
 alias symbol:ipa3_mhi_destroy_channel ipam
 alias symbol:cs_dsp_coeff_read_ctrl cs_dsp
@@ -696,6 +710,7 @@ alias symbol:tmc_etr_get_buffer coresight_tmc
 alias symbol:unregister_mtd_user mtd
 alias symbol:qmi_rmnet_set_dl_msg_active rmnet_core
 alias symbol:platform_class_cp_get_ovpgate_status mca_platform_cp_class
+alias symbol:cs40l26_copy_f0_est_to_dvl cs40l26_core
 alias symbol:platform_class_buckchg_ops_get_lpd_cc2 mca_platform_buckchg_class
 alias symbol:platform_class_buckchg_ops_get_input_volt_lmt mca_platform_buckchg_class
 alias symbol:protocol_class_pd_get_pd_typec_accessory_mode mca_protocol_pd_class
@@ -736,6 +751,7 @@ alias symbol:wm_adsp_compr_copy cs35l43_dlkm
 alias symbol:__traceiter_rmnet_perf_err rmnet_core
 alias symbol:platform_class_buckchg_ops_get_lpd_dm mca_platform_buckchg_class
 alias symbol:rmnet_reset_qmi_pt rmnet_core
+alias symbol:cs40l26_probe cs40l26_core
 alias symbol:adc_tm_channel_measure_gen3 qcom_spmi_adc5_gen3
 alias symbol:ipa3_get_transport_info ipam
 alias symbol:swr_get_logical_dev_num swr_dlkm
@@ -794,6 +810,7 @@ alias symbol:ipa_eth_client_conn_pipes ipam
 alias symbol:__SCK__tp_func_rmnet_shs_wq_low rmnet_core
 alias symbol:drm_dsc_pps_payload_pack drm_display_helper
 alias symbol:msc_system_get_device_capability mpam_msc
+alias symbol:cs40l26_debugfs_cleanup cs40l26_core
 alias symbol:mhi_dump_sfr mhi
 alias symbol:cfg80211_defragment_element cfg80211
 alias symbol:gsi_common_tre_process msm_gpi
@@ -930,6 +947,7 @@ alias symbol:gsi_query_channel_db_addr gsim
 alias symbol:ipa3_sys_teardown ipam
 alias symbol:platform_class_cp_get_present mca_platform_cp_class
 alias symbol:cam_mem_mgr_free_memory_region camera
+alias symbol:cl_dsp_debugfs_create cl_dsp_core
 alias symbol:pdr_handle_release pdr_interface
 alias symbol:protocol_class_pd_get_pps_apdo_max mca_protocol_pd_class
 alias symbol:ipa3_disconnect_mhi_pipe ipam
@@ -941,6 +959,7 @@ alias symbol:platform_class_buckchg_ops_is_support_cid mca_platform_buckchg_clas
 alias symbol:snd_event_notify snd_event_dlkm
 alias symbol:cfg80211_get_p2p_attr cfg80211
 alias symbol:mtd_read_user_prot_reg mtd
+alias symbol:cs40l26_precious_reg cs40l26_core
 alias symbol:do_map_probe chipreg
 alias symbol:qcom_adc5_hw_settle_time_from_dt qcom_vadc_common
 alias symbol:slim_free_txn_tid slimbus
@@ -979,6 +998,7 @@ alias symbol:drm_dp_mst_connector_early_unregister drm_display_helper
 alias symbol:gsi_dealloc_evt_ring gsim
 alias symbol:gh_irq_lend gh_irq_lend
 alias symbol:msm_qdss_csr_enable_flush coresight_csr
+alias symbol:cs40l26_get_ram_ext_algo_id cs40l26_core
 alias symbol:__SCK__tp_func_rmnet_perf_high rmnet_core
 alias symbol:qcrypto_cipher_clear_flag qcrypto_msm_dlkm
 alias symbol:cs_dsp_get_ctl cs_dsp
@@ -1060,6 +1080,7 @@ alias symbol:__tracepoint_rmnet_perf_low rmnet_core
 alias symbol:mhi_get_channel_db_base mhi
 alias symbol:platform_class_wireless_get_trx_vrect mca_platform_wireless_class
 alias symbol:cam_cpas_enable_tpg_mux_sel camera
+alias symbol:cl_dsp_fw_rev_get cl_dsp_core
 alias symbol:gsi_reset_evt_ring gsim
 alias symbol:wlfw_vbatt_req_msg_v01_ei wlan_firmware_service
 alias symbol:mca_log_charge_log_register mca_log
@@ -1073,6 +1094,7 @@ alias symbol:ipa3_qmi_disable_force_clear_datapath_send ipam
 alias symbol:wm_adsp2_component_probe cs35l43_dlkm
 alias symbol:wlfw_qdss_trace_mem_info_resp_msg_v01_ei wlan_firmware_service
 alias symbol:mca_parse_dts_u32_array mca_parse_dts
+alias symbol:cs40l26_mailbox_write cs40l26_core
 alias symbol:platform_class_wireless_download_fw mca_platform_wireless_class
 alias symbol:ieee80211_ctstoself_get mac80211
 alias symbol:mhi_set_m2_timeout_ms mhi
@@ -1091,6 +1113,7 @@ alias symbol:adsp_sleepmon_log_master_stats adsp_sleepmon
 alias symbol:dns_query dns_resolver
 alias symbol:gsi_poll_channel gsim
 alias symbol:mca_wireless_rev_set_usb_plugin mca_wireless_revchg
+alias symbol:cs40l26_dsp_state_get cs40l26_core
 alias symbol:sps_register_event sps_drv
 alias symbol:cfg80211_iter_combinations cfg80211
 alias symbol:mmrm_client_deregister msm_mmrm
@@ -1124,6 +1147,7 @@ alias symbol:__traceiter_rmnet_low rmnet_core
 alias symbol:lpass_cdc_clk_rsc_request_clock lpass_cdc_dlkm
 alias symbol:cnss_get_mem_seg_count cnss2
 alias symbol:ipa3_inc_client_enable_clks ipam
+alias symbol:cl_dsp_destroy cl_dsp_core
 alias symbol:ieee80211_radiotap_iterator_next cfg80211
 alias symbol:wlfw_athdiag_read_req_msg_v01_ei wlan_firmware_service
 alias symbol:ipa3_add_rt_rule_after_v2 ipam
@@ -1142,12 +1166,14 @@ alias symbol:platform_class_cp_set_mode mca_platform_cp_class
 alias symbol:cfg80211_check_station_change cfg80211
 alias symbol:cnss_get_soc_info cnss2
 alias symbol:rndis_add_hdr usb_f_gsi
+alias symbol:cs40l26_rom_wt_init cs40l26_core
 alias symbol:ipa3_setup_wlan_ctrl_ready_req ipam
 alias symbol:lpass_cdc_register_res_clk lpass_cdc_dlkm
 alias symbol:platform_class_wireless_get_trx_isense mca_platform_wireless_class
 alias symbol:cfg80211_chandef_compatible cfg80211
 alias symbol:cnss_wlan_hw_enable cnss2
 alias symbol:msm_hw_fence_driver_doorbell_sim msm_hw_fence
+alias symbol:cs40l26_pm_ops cs40l26_core
 alias symbol:mca_adsp_glink_resister_ops mca_adsp_glink
 alias symbol:ipa_eth_client_disconn_pipes ipam
 alias symbol:ipa_hdrs_hpc_destroy ipam
@@ -1187,6 +1213,7 @@ alias symbol:ieee80211_beacon_cntdwn_is_complete mac80211
 alias symbol:wlfw_pcie_gen_switch_resp_msg_v01_ei wlan_firmware_service
 alias symbol:ipa_wdi_opt_dpath_rsrv_filter_req ipam
 alias symbol:rndis_set_param_medium usb_f_gsi
+alias symbol:cs40l26_resume cs40l26_core
 alias symbol:ipa3_disconn_wdi3_pipes ipam
 alias symbol:wlfw_respond_get_info_ind_msg_v01_ei wlan_firmware_service
 alias symbol:platform_class_buckchg_ops_get_chg_type mca_platform_buckchg_class
@@ -1205,6 +1232,7 @@ alias symbol:ipa_wigig_enable_pipe ipam
 alias symbol:__ieee80211_schedule_txq mac80211
 alias symbol:cfg80211_bss_flush cfg80211
 alias symbol:qmi_response_type_v01_ei qmi_helpers
+alias symbol:cl_dsp_get_length cl_dsp_core
 alias symbol:wm_adsp_write_ctl cs35l43_dlkm
 alias symbol:drm_dp_mst_put_port_malloc drm_display_helper
 alias symbol:qcom_dump qcom_ramdump
@@ -1430,6 +1458,7 @@ alias symbol:msm_perf_events_update msm_performance
 alias symbol:__tracepoint_rmnet_shs_low rmnet_core
 alias symbol:cnss_pci_get_reg_dump cnss2
 alias symbol:wlfw_antenna_switch_req_msg_v01_ei wlan_firmware_service
+alias symbol:cs40l26_wt_swap cs40l26_core
 alias symbol:init_si_mem_object_user mem_object
 alias symbol:wcd_usbss_set_switch_settings_enable wcd_usbss_i2c
 alias symbol:cscfg_csdev_disable_active_config coresight
@@ -1444,6 +1473,7 @@ alias symbol:cnss_get_user_msi_assignment cnss2
 alias symbol:coresight_remove_sysfs_link coresight
 alias symbol:qcrypto_ahash_set_flag qcrypto_msm_dlkm
 alias symbol:protocol_class_pd_get_adapter_id mca_protocol_pd_class
+alias symbol:cs40l26_regmap cs40l26_core
 alias symbol:mca_destroy_votable mca_common
 alias symbol:pmic_glink_unregister_client qti_pmic_glink
 alias symbol:wlfw_msa_info_req_msg_v01_ei wlan_firmware_service
@@ -1453,6 +1483,7 @@ alias symbol:cam_cdm_flush_hw camera
 alias symbol:ipa_eth_get_ipa_client_type_from_eth_type ipam
 alias symbol:ipa_mhi_suspend ipam
 alias symbol:ipa_wdi_set_perf_profile ipam
+alias symbol:cl_dsp_algo_is_present cl_dsp_core
 alias symbol:drm_dsc_initial_scale_value drm_display_helper
 alias symbol:ipa_send_msg ipam
 alias symbol:platform_class_buckchg_ops_set_input_curr_lmt mca_platform_buckchg_class
@@ -1520,6 +1551,7 @@ alias symbol:rmnet_clear_powersave_format rmnet_core
 alias symbol:wlfw_mlo_reconfig_info_req_msg_v01_ei wlan_firmware_service
 alias symbol:ipa3_qmi_send_wdi_opt_dpath_rsrv_flt_ind ipam
 alias symbol:qcom_device_shutdown_in_progress rproc_qcom_common
+alias symbol:cs40l26_wseq_write cs40l26_core
 alias symbol:mca_charge_mievent_report mca_charge_mievent
 alias symbol:rmnet_ctl_if rmnet_ctl
 alias symbol:ipa3_add_rt_rule_usr_v2 ipam
@@ -1621,6 +1653,7 @@ alias symbol:__regmap_init_swr swr_dlkm
 alias symbol:rmnet_module_hook_perf_ingress_rx_handler rmnet_core
 alias symbol:rmnet_qmap_next_txid rmnet_core
 alias symbol:__SCK__tp_func_rmnet_high rmnet_core
+alias symbol:cs40l26_pm_timeout_ms_get cs40l26_core
 alias symbol:qcom_notify_early_ssr_clients rproc_qcom_common
 alias symbol:cnss_pci_link_down cnss2
 alias symbol:get_spss_image_size qcom_spss
@@ -1695,6 +1728,7 @@ alias symbol:tmc_sg_table_get_data coresight_tmc
 alias symbol:cnss_pci_prevent_l1 cnss2
 alias symbol:drm_dp_128b132b_cds_interlane_align_done drm_display_helper
 alias symbol:qcom_adc_tm5_temp_volt_scale qcom_vadc_common
+alias symbol:cl_dsp_create cl_dsp_core
 alias symbol:qcom_va_md_add_region qcom_va_minidump
 alias symbol:stm_register_protocol stm_core
 alias symbol:ipa_restore_suspend_handler ipam
@@ -1759,6 +1793,7 @@ alias symbol:qce_aead_req qce50_dlkm
 alias symbol:qcom_glink_spss_register qcom_glink_spss
 alias symbol:qcom_smd_unregister_edge qcom_smd
 alias symbol:cdsprm_cxlimit_npu_limit_deregister cdsprm
+alias symbol:cl_dsp_memchunk_end cl_dsp_core
 alias symbol:disp_log_printk_utc msm_drm
 alias symbol:ipa_usb_xdci_disconnect ipam
 alias symbol:mhi_queue_dma mhi
@@ -1803,6 +1838,7 @@ alias symbol:cnss_audio_is_direct_link_supported cnss2
 alias symbol:platform_class_wireless_get_debug_fod_type mca_platform_wireless_class
 alias symbol:ipa3_get_r_rev_version ipam
 alias symbol:__slim_driver_register slimbus
+alias symbol:cs40l26_num_waves cs40l26_core
 alias symbol:qcom_va_md_enabled qcom_va_minidump
 alias symbol:drm_dp_dsc_sink_line_buf_depth drm_display_helper
 alias symbol:rmnet_ctl_unregister_client rmnet_ctl
@@ -1813,6 +1849,7 @@ alias symbol:msm_hw_fence_register msm_hw_fence
 alias symbol:wiphy_delayed_work_cancel cfg80211
 alias symbol:ipa_wdi_opt_dpath_register_flt_cb_per_inst ipam
 alias symbol:cam_cci_dump_registers camera
+alias symbol:cs40l26_volatile_reg cs40l26_core
 alias symbol:rmnet_module_hook_perf_tether_egress rmnet_core
 alias symbol:tmc_etr_remove_catu_ops coresight_tmc
 alias symbol:wlfw_wlan_cfg_resp_msg_v01_ei wlan_firmware_service
@@ -1855,6 +1892,7 @@ alias symbol:mhi_free_controller mhi
 alias symbol:platform_class_buckchg_ops_get_otg_enable_status mca_platform_buckchg_class
 alias symbol:ieee80211_set_active_links mac80211
 alias symbol:cam_cpas_log_votes camera
+alias symbol:cs40l26_fw_swap cs40l26_core
 alias symbol:platform_class_cp_get_reg_status mca_platform_cp_class
 alias symbol:cam_res_mgr_led_trigger_unregister camera
 alias symbol:ipa_ready_callback usb_f_gsi
@@ -1907,6 +1945,7 @@ alias symbol:platform_fg_ops_get_cyclecount mca_platform_fg_ic_ops
 alias symbol:get_bms_temp_common xiaomi_touch
 alias symbol:mhi_device_put mhi
 alias symbol:synx_fence_callback synx_driver
+alias symbol:cl_dsp_firmware_parse cl_dsp_core
 alias symbol:hdcp2_deinit hdcp_qseecom_dlkm
 alias symbol:driver_get_touch_mode xiaomi_touch
 alias symbol:gsi_get_refetch_reg gsim
@@ -1980,6 +2019,8 @@ alias symbol:cnss_deinitialize_prealloc_pool cnss_prealloc
 alias symbol:ieee80211_nan_func_match mac80211
 alias symbol:drm_dp_remove_payload drm_display_helper
 alias symbol:cnss_utils_set_wlan_unsafe_channel cnss_utils
+alias symbol:cs40l26_sys_suspend_noirq cs40l26_core
+alias symbol:cl_dsp_memchunk_flush cl_dsp_core
 alias symbol:gpr_get_modem_state gpr_dlkm
 alias symbol:sps_free_endpoint sps_drv
 alias symbol:gsi_write_evt_ring_scratch gsim
@@ -2031,6 +2072,7 @@ alias symbol:xiaomi_get_sensorhub_status xiaomi_touch
 alias symbol:cam_res_mgr_util_shared_gpio_check_hold camera
 alias symbol:qcom_mpam_set_platform_bw_monitor mpam
 alias symbol:mhi_controller_set_privdata mhi
+alias symbol:cs40l26_resume_error_handle cs40l26_core
 alias symbol:ipa_pm_deactivate_sync ipam
 alias symbol:cnss_pci_is_device_down cnss2
 alias symbol:ieee80211_pspoll_get mac80211
@@ -2061,6 +2103,7 @@ alias symbol:wlfw_m3_dump_upload_segments_req_ind_msg_v01_ei wlan_firmware_servi
 alias symbol:gsi_write_wdi3_channel_scratch2_reg gsim
 alias symbol:qmi_handle_release qmi_helpers
 alias symbol:mhi_host_notify_db_disable_trace mhi
+alias symbol:cs40l26_pm_exit cs40l26_core
 alias symbol:rmnet_module_hook_perf_set_thresh rmnet_core
 alias symbol:wlfw_antenna_grant_resp_msg_v01_ei wlan_firmware_service
 alias symbol:cfg80211_put_bss cfg80211
@@ -2095,6 +2138,7 @@ alias symbol:platform_class_wireless_enable_vsys_ctrl mca_platform_wireless_clas
 alias symbol:gh_panic_notifier_register gh_panic_notifier
 alias symbol:msm_cdc_release_supplies wcd_core_dlkm
 alias symbol:wlfw_pcie_link_ctrl_req_msg_v01_ei wlan_firmware_service
+alias symbol:cl_dsp_coeff_file_parse cl_dsp_core
 alias symbol:sps_get_bam_addr sps_drv
 alias symbol:wcd_mbhc_adc_init mbhc_dlkm
 alias symbol:digital_cdc_rsc_mgr_hw_vote_enable spf_core_dlkm
@@ -2139,6 +2183,7 @@ alias symbol:ieee80211_iter_keys mac80211
 alias symbol:ipa_wigig_save_regs ipam
 alias symbol:msm_pcie_prevent_l1 pci_msm_drv
 alias symbol:register_mtd_blktrans mtd_blkdevs
+alias symbol:cl_dsp_debugfs_destroy cl_dsp_core
 alias symbol:ipa_eth_register_ready_cb ipam
 alias symbol:wm_adsp2_component_remove cs35l43_dlkm
 alias symbol:mca_log_get_charge_boot_mode mca_log
@@ -2161,6 +2206,7 @@ alias symbol:ipa_set_perf_profile ipam
 alias symbol:ipa_set_pkt_init_ex_hdr_ofst ipam
 alias symbol:ipa_wdi_dereg_intf ipam
 alias symbol:wlfw_cal_update_resp_msg_v01_ei wlan_firmware_service
+alias symbol:cs40l26_asp_start cs40l26_core
 alias symbol:gsi_ring_ch_ring_db gsim
 alias symbol:platform_class_wireless_send_tx_q_value mca_platform_wireless_class
 alias symbol:ddr_stats_get_change_his qcom_stats
@@ -2194,6 +2240,7 @@ alias symbol:mhi_prepare_for_transfer_autoqueue mhi
 alias symbol:mtd_concat_destroy mtd
 alias symbol:cam_cpas_axi_util_drv_vote_lvl_to_string camera
 alias symbol:cfg80211_auth_timeout cfg80211
+alias symbol:cs40l26_vibe_state_update cs40l26_core
 alias symbol:platform_class_wireless_set_vout mca_platform_wireless_class
 alias symbol:platform_fg_ops_get_aged_flag mca_platform_fg_ic_ops
 alias symbol:wlfw_qdss_mem_ready_ind_msg_v01_ei wlan_firmware_service
@@ -2285,6 +2332,7 @@ alias symbol:mhi_driver_unregister mhi
 alias symbol:mtd_is_locked mtd
 alias symbol:mca_smartchg_is_extreme_cold_enabled mca_smart_charge
 alias symbol:rndis_set_param_dev usb_f_gsi
+alias symbol:cs40l26_sys_resume cs40l26_core
 alias symbol:mhi_async_power_up mhi
 alias symbol:ieee80211_amsdu_to_8023s cfg80211
 alias symbol:dss_reg_r msm_drm
@@ -2370,6 +2418,7 @@ alias symbol:mca_strategy_func_get_status mca_strategy_class
 alias symbol:cfg80211_any_usable_channels cfg80211
 alias symbol:cfg80211_shutdown_all_interfaces cfg80211
 alias symbol:usb_get_redriver_by_phandle redriver
+alias symbol:cs40l26_sys_suspend cs40l26_core
 alias symbol:qcom_glink_register_signals_cb qcom_glink
 alias symbol:cfg80211_michael_mic_failure cfg80211
 alias symbol:wlfw_host_cap_resp_msg_v01_ei wlan_firmware_service
@@ -2473,6 +2522,7 @@ alias symbol:ipa_qdss_disconn_pipes ipam
 alias symbol:wiphy_work_queue cfg80211
 alias symbol:cfg80211_pmksa_candidate_notify cfg80211
 alias symbol:lpass_cdc_runtime_resume lpass_cdc_dlkm
+alias symbol:cs40l26_ls_cal_params cs40l26_core
 alias symbol:platform_class_wireless_do_renego mca_platform_wireless_class
 alias symbol:__SCK__tp_func_rmnet_perf_err rmnet_core
 alias symbol:cscfg_activate_config coresight
@@ -2485,6 +2535,7 @@ alias symbol:ieee80211_ctstoself_duration mac80211
 alias symbol:qmi_rmnet_ps_on_notify rmnet_core
 alias symbol:tas25xx_prep_dev_for_calib tas25xx_dlkm
 alias symbol:wm_adsp_fw_put cs35l43_dlkm
+alias symbol:cs40l26_pm_enter cs40l26_core
 alias symbol:drm_dp_mst_root_conn_atomic_check drm_display_helper
 alias symbol:platform_class_buckchg_ops_get_otg_status mca_platform_buckchg_class
 alias symbol:cnss_utils_get_wlan_derived_mac_address cnss_utils
@@ -2587,9 +2638,11 @@ alias symbol:platform_class_wireless_get_project_vendor mca_platform_wireless_cl
 alias symbol:drm_dp_pcon_frl_enable drm_display_helper
 alias symbol:ieee80211_key_mic_failure mac80211
 alias symbol:ipa3_mhi_init_engine ipam
+alias symbol:cl_dsp_raw_write cl_dsp_core
 alias symbol:ieee80211_rx_napi mac80211
 alias symbol:drm_dp_read_sink_count drm_display_helper
 alias symbol:platform_class_wireless_get_hall_gpio_status mca_platform_wireless_class
+alias symbol:cs40l26_pm_timeout_ms_set cs40l26_core
 alias symbol:ieee80211_sta_uapsd_trigger mac80211
 alias symbol:wlfw_qdss_trace_free_ind_msg_v01_ei wlan_firmware_service
 alias symbol:drm_dp_bw_code_to_link_rate drm_display_helper
@@ -2717,6 +2770,7 @@ alias symbol:mhi_debug_reg_dump mhi
 alias symbol:protocol_class_pd_set_pd_active mca_protocol_pd_class
 alias symbol:qcom_adc5_prescaling_from_dt qcom_vadc_common
 alias symbol:cam_ife_csid_hw_ver2_init camera
+alias symbol:cs40l26_debugfs_init cs40l26_core
 alias symbol:qseecom_start_app qseecom_proxy
 alias symbol:protocol_class_pd_set_pd_typec_accessory_mode mca_protocol_pd_class
 alias symbol:strategy_class_fg_is_chip_ok mca_strategy_fg_class
@@ -2757,6 +2811,7 @@ alias symbol:drm_atomic_get_mst_payload_state drm_display_helper
 alias symbol:drm_dp_downstream_is_type drm_display_helper
 alias symbol:swr_bulk_write swr_dlkm
 alias symbol:cam_res_mgr_gpio_set_value camera
+alias symbol:cl_dsp_memchunk_write cl_dsp_core
 alias symbol:platform_fg_ops_get_count_level3 mca_platform_fg_ic_ops
 alias symbol:add_input_event_timeline_before_event_time xiaomi_touch
 alias symbol:gsi_get_ring_len gsim
@@ -2780,6 +2835,7 @@ alias symbol:cam_smmu_release_buf_region camera
 alias symbol:wm_adsp1_event cs35l43_dlkm
 alias symbol:cam_cpas_get_hw_info camera
 alias symbol:sysstats_unregister_kgsl_stats_cb msm_sysstats
+alias symbol:cs40l26_pm_runtime_teardown cs40l26_core
 alias symbol:mhi_queue_is_full mhi
 alias symbol:altmode_register_client altmode_glink
 alias symbol:unregister_xiaomi_stylus_input_dev xiaomi_touch

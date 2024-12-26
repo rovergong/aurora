@@ -11,6 +11,7 @@ mhi_dev_satellite.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 gpio-mi-t1.ko
+gpio-tiantong-msc06a.ko
 pci-msm-drv.ko
 clk-scmi.ko
 evacc-tuna.ko
@@ -69,10 +70,10 @@ dmesg_dumper.ko
 gh_tlmm_vm_mem_access.ko
 msm_performance.ko
 msm_show_epoch.ko
-qti_dmof_scmi.ko
 qti-fixed-regulator.ko
 qcom-amoled-regulator.ko
 qti-ocp-notifier.ko
+wl2868c-msc06a-regulator.ko
 hvc_gunyah.ko
 msm_geni_serial.ko
 rdbg.ko
@@ -105,6 +106,8 @@ redriver.ko
 nb7vpq904m.ko
 pm8941-pwrkey.ko
 qcom-hv-haptics.ko
+cs40l26-core.ko
+cs40l26-i2c.ko
 mi_fp.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
@@ -179,6 +182,7 @@ leds-qcom-flash.ko
 leds-qcom-lpg.ko
 leds-qti-flash.ko
 cs_dsp.ko
+cl_dsp-core.ko
 si_core_module.ko
 mem_object.ko
 qcom-rng.ko
@@ -255,6 +259,7 @@ stm_heartbeat.ko
 stm_ftrace.ko
 snd-usb-audio-qmi.ko
 snd-soc-hdmi-codec.ko
+snd-soc-cs40l26.ko
 cfg80211.ko
 mac80211.ko
 dns_resolver.ko
@@ -506,4 +511,3 @@ ipclite.ko
 ipclite_test.ko
 msm_video.ko
 msm_kgsl.ko
-libprocinfo.so

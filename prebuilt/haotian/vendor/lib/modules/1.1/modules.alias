@@ -52,6 +52,18 @@ alias of:N*T*Cqcom,pmk8350-pwrkey-barkC* pm8941_pwrkey
 alias of:N*T*Cqcom,pmk8350-pwrkey-resin-bark pm8941_pwrkey
 alias of:N*T*Cqcom,pmk8350-pwrkey-resin-barkC* pm8941_pwrkey
 alias mhi:IPCR qrtr_mhi
+alias i2c:cs40l26a cs40l26_i2c
+alias i2c:cs40l26b cs40l26_i2c
+alias i2c:cs40l27a cs40l26_i2c
+alias i2c:cs40l27b cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l26a cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l26aC* cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l26b cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l26bC* cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l27a cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l27aC* cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l27b cs40l26_i2c
+alias of:N*T*Ccirrus,cs40l27bC* cs40l26_i2c
 alias of:N*T*Cqcom,pmic-glink-debug pmic_glink_debug
 alias of:N*T*Cqcom,pmic-glink-debugC* pmic_glink_debug
 alias of:N*T*Cqcom,spmi-glink-debug pmic_glink_debug
@@ -638,6 +650,9 @@ alias of:N*T*Cqcom,slim-ngd-v1.5.0 slim_qcom_ngd_ctrl
 alias of:N*T*Cqcom,slim-ngd-v1.5.0C* slim_qcom_ngd_ctrl
 alias of:N*T*Cqcom,slim-ngd-v2.1.0 slim_qcom_ngd_ctrl
 alias of:N*T*Cqcom,slim-ngd-v2.1.0C* slim_qcom_ngd_ctrl
+alias of:N*T*Cwillsemi,wl2868c-msc06a wl2868c_msc06a_regulator
+alias of:N*T*Cwillsemi,wl2868c-msc06aC* wl2868c_msc06a_regulator
+alias i2c:wl2868c-msc06a-i2c wl2868c_msc06a_regulator
 alias of:N*T*Cqcom,spf_core spf_core_dlkm
 alias of:N*T*Cqcom,spf_coreC* spf_core_dlkm
 alias platform:qcom-spmi-gpio pinctrl_spmi_gpio
@@ -873,6 +888,7 @@ alias amba:d???BB9A8 coresight_cti
 alias amba:d???BB9AA coresight_cti
 alias amba:d???BB9DA coresight_cti
 alias amba:d???BB9ED coresight_cti
+alias platform:cs40l26-codec snd_soc_cs40l26
 alias of:N*T*Cqcom,audio-ref-clk wcd9xxx_dlkm
 alias of:N*T*Cqcom,audio-ref-clkC* wcd9xxx_dlkm
 alias platform:qcom-spmi-mpp pinctrl_spmi_mpp

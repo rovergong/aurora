@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2024 The Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,13 +13,6 @@ TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
-TARGET_CPU_VARIANT_RUNTIME := kryo300
-
-TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := $(TARGET_ARCH_VARIANT)
-TARGET_2ND_CPU_ABI := armeabi-v7a
-TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := $(TARGET_CPU_VARIANT)
 
 # Power
 ENABLE_CPUSETS := true
@@ -75,6 +68,17 @@ AB_OTA_PARTITIONS += \
 BOARD_AVB_ENABLE := true
 
 # Partitions
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+
+# Workaround for error copying vendor files to recovery ramdisk
+TARGET_COPY_OUT_VENDOR := vendor
+
+TARGET_COPY_OUT_ODM := odm
+BOARD_ODMIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_USES_VENDOR_DLKMIMAGE := true
+TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
+BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
+
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 104857600
 
 # Dynamic Partition
@@ -83,26 +87,21 @@ BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 11809841488
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext product vendor vendor_dlkm odm
 
-BOARD_PARTITION_LIST := $(call to-upper, $(BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST))
-$(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := erofs))
-$(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
-
-BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
-
 # File systems
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-#BOARD_USES_SYSTEM_DLKMIMAGE := true
-BOARD_USES_VENDOR_DLKMIMAGE := true
 
-# Workaround for error copying vendor files to recovery ramdisk
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-TARGET_COPY_OUT_VENDOR := vendor
+#Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_xiaomi_dada
+TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_dada
+TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
+
+# Extras
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
-TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
-TARGET_SCREEN_DENSITY := 450
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
@@ -125,6 +124,9 @@ TW_INCLUDE_LIBRESETPROP := true
 TW_INCLUDE_LPDUMP := true
 TW_INCLUDE_LPTOOLS := true
 
+# F2FS
+TW_ENABLE_FS_COMPRESSION := true
+
 # Debug
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
@@ -134,7 +136,7 @@ TW_INCLUDE_FASTBOOTD := true
 
 # Other TWRP Configurations
 TW_THEME := portrait_hdpi
-TW_FRAMERATE := 60
+TW_FRAMERATE := 120
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
@@ -152,14 +154,14 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TW_DEFAULT_BRIGHTNESS := 200
 TW_EXCLUDE_APEX := true
 TW_HAS_EDL_MODE := true
-# Haptic
-#TW_SUPPORT_INPUT_AIDL_HAPTICS := true
-#TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
-#TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
+TW_XIAOMI_TOUCH_PERMISSION_FIX := true
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/vibratorfeature"
+TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
-#TW_NO_SCREEN_BLANK := true
-TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko synaptics_tcm2.ko qti_battery_charger.ko"
-TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone35/temp"
-TW_BATTERY_SYSFS_WAIT_SECONDS := 6
+TW_SCREEN_BLANK_ON_BOOT := true
+TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko synaptics_tcm2.ko qti_battery_charger.ko nxp-nci.ko stm_st54se_gpio.ko stm_nfc_i2c.ko"
+TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone1/temp" # CPU-0-0-0
 TW_BACKUP_EXCLUSIONS := /data/fonts
-TW_DEVICE_VERSION := haotian_H₂O-HomeMade
+TW_DEVICE_VERSION := haotian-HomeMade

@@ -9,6 +9,5 @@ vendor.gatekeeper.is_security_level_spu=0
 # Battery Property
 ro.charger.enable_suspend=1
 
-# Reset allocatable space
-#ro.dynamic.full_size=8321499136
-ro.llndk.api_level=202404
+# SPR Support
+vendor.display.enable_spr=1
